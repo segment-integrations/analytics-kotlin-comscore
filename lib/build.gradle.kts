@@ -81,10 +81,6 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
 }
 
-tasks.withType<Test> {
-    useJUnitPlatform()
-}
-
 // required for mvn-publish
 // too bad we can't move it into mvn-publish plugin because `android`is only accessible here
 tasks {
