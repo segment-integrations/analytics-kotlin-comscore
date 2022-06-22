@@ -1,5 +1,6 @@
 package com.segment.analytics.kotlin.destinations.comscore
 
+/* Copyright 2022 Twilio.inc */
 
 import android.content.Context
 import com.comscore.Analytics
